@@ -1,5 +1,5 @@
 * {padding: 0%; margin: 0%;  background-color: #f2f2f2;} /*estilo definido para toda la página*/
-header { height: 30px; /*Alto del encabezado*/
+header { height: 60px; /*Alto del encabezado*/
          width: 100%; /*Ancho del encabezado*/
          margin:auto; /*Margen del contenedor*/
          position: relative; /*Posicionamiento relativo del elemento*/
