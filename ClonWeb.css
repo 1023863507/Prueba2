@@ -1,0 +1,119 @@
+* {padding: 0%; margin: 0%;  background-color: #f2f2f2;} /*estilo definido para toda la página*/
+header { height: 30px; /*Alto del encabezado*/
+         width: 100%; /*Ancho del encabezado*/
+         margin:auto; /*Margen del contenedor*/
+         position: relative; /*Posicionamiento relativo del elemento*/
+         left: 500px /*ubicación del elemento hacia la derecha*/
+        }
+header img {width: 200px; /*ancho de la imagen*/
+            height: 150px; /*Alto de la imagen*/
+            /*padding: 0px 500px; Ubicación de la imagen en la página*/
+           }
+nav {width: 100%;/*Ancho del menú*/
+     height: 60px;/*Alto del menú*/
+     color: #43525A;/*color de letra del menú*/
+     font-family: 'sans serif', cursive;/*estilo de letra*/
+    }
+
+nav ul {
+        display: flex; /*ubicación del Menú horizontal de manera flexible al tamaño de la pantalla*/
+        flex: 1 1 100%; 
+        align-items: center;
+        } /*alineación del texto del menú*/
+[data-opcion] {padding-right: 360px} /*ubicación del item 4 del menú hacia la derecha para dar espacio al logo*/
+
+article {width: 500px; /*ancho del articulo del titúlo y el parrafo*/ 
+         height: 500px;  /*alto del articulo del titúlo y el parrafo*/
+         margin-top: 220px;} /*margen del articulo del titúlo y el parrafo*/
+
+aside {width: 400px; /*ancho del aside*/
+       height: 400px; /*alto del aside*/
+       position: relative; /*posicion de la imagen*/
+       display: block;
+       margin-left: 800px }/*margen del aside*/
+
+aside img { 
+            width: 85.71429rem; /*ancho de la imagen*/
+            height:auto; /*Alto de la imagen*/
+            position: relative; /*posicion de la imagen*/
+           top: -720px
+            }           
+          
+         
+article section p {
+    font-family: "Muli", sans-serif; /*tipo de letra del texto*/
+    font-size: x-large; /*tamaño de la letra*/
+    line-height: 160%; /*espacio entre letras*/
+    margin: 0 0 2.14286rem; /*margen del texto*/
+    text-align: justify;/*texto justificado*/
+    color: #43525a;}/*color del texto*/
+
+article h1 {
+        font-family: "Muli", sans-serif; /*tipo de letra del texto*/
+        font-size: 3rem; /*tamaño de letra*/
+        margin: 0 0 1.42857rem; /*margen del texto*/
+        color: #43525a;}/*color del texto*/
+
+#botonuno {text-align: center;  /*alineación del boton*/
+    position: relative; /*Posición del boton*/
+    z-index: 2;
+    display: block; /*tipo del display en bloque*/
+    background: none; 
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #28A5BE;  /*Color de fondo*/
+    color: #fff; /*Color de letra*/
+    transform: scale(1.05);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.35);
+    cursor: pointer;  /*Mostrar cursor*/
+    padding: 1.57143rem 1.92857rem;  /*ubicación del boton*/
+    font-size: 1.28571rem;} /*tamaño de letra*/
+
+#botondos {    padding: 0.85714rem 1.71429rem; /*ubicación del boton*/
+    font-size: 1.14286rem;
+    text-align: center; /*alineación del texto*/
+    position: relative;/*Posición del boton*/
+    z-index: 1;
+    padding: 0.71429rem 1.42857rem;
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #2D2D2D;
+    color: #fff;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    cursor: pointer;
+}
+footer ul {   
+    font-family: 'Muli', cursive; /*tipo de letra del texto*/
+    font-size: 1rem; /*tamaño de letra del texto*/
+    color: #43525A; /*Color de letra del texto*/
+    margin: 1.42857rem 0; /* margen del texto*/
+    padding: 0.71429rem 0; /*ubicación*/
+    display: flex; /*menú flexible adapta a la pantalla*/
+    list-style-type: disc;
+    text-decoration-style:none;
+    -webkit-margin-before: 1em; /*margen entre listas*/
+    -webkit-margin-after: 1em;  /*margen entre listas*/
+    -webkit-margin-start: 0px;  /*margen entre listas*/
+    -webkit-margin-end: 0px;  /*margen entre listas*/
+    -webkit-padding-start: 40px;}  /*margen entre listas*/
+
+footer li {list-style-type: none;
+    margin-right: 3.57143rem; 
+    display: list-item;
+    text-align: -webkit-match-parent;}
+
+footer li a { text-decoration: none!important;
+    color:#43525A; 
+} 
+nav ul li {
+        display: block; /*ubicación de las opciones de la lista */
+        padding: 20px 20px;            
+        }
+
+nav ul li a { text-decoration: none!important;
+              color: #43525A;
+    }
